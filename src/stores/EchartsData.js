@@ -128,8 +128,8 @@ class EchartsData {
     }
     fetchParkingData(index) {
         let self = this;
-        var realInParking = [0, 0, 1, 0, 2, 1, 0, 1, 0, 0, 0];
-        var realOutParking = [0, 0, 2, 1, 0, 0, 1, 1, 2, 0, 0];
+        var realInParking = [59, 34, 37, 41, 46, 52, 54, 54, 56, 58, 59];
+        var realOutParking = [36, 6, 7, 9, 12, 13, 15, 16, 19, 24, 28];
         var realInBoating = [0, 0, 1, 0, 2, 1, 0, 1, 0, 0, 0];
         var realOutBoating = [0, 0, 2, 1, 0, 0, 1, 1, 2, 0, 0];
         var boating = [{
@@ -192,7 +192,7 @@ class EchartsData {
         this.parking.prevAll = this.parking.all;
         this.parking.prevRealIn = this.parking.realIn;
         this.parking.prevRealOut = this.parking.realIn;
-        axios.get('http://128.1.67.161:300/parkingLot' + index).then(function(data){
+        axios.get('http://www.zhuxiaoyi.com:300/parkingLot' + index).then(function(data){
             self.parking.inUse = data.data.inUse;
             self.parking.all = data.data.all;
             self.parking.realIn = realInParking[index];
@@ -315,7 +315,7 @@ class EchartsData {
             }
             return [month, day];
         }
-        axios.get('http://128.1.67.161:302/data').then(function(data){
+        axios.get('http://www.zhuxiaoyi.com:302/data').then(function(data){
             data.data.latest20.map((item, i) => {
                 self.pass.category.unshift(getDate(i + 1).join('-'));
                 self.pass.barData.push(item.sum);
@@ -347,9 +347,9 @@ class EchartsData {
         })
     }
     tickets(index) {
-        var onlineTicket = [124, 124, 124, 124, 125, 125, 125, 125, 126, 126];
-        var offlineTicket = [532, 532, 532, 532, 532, 532, 532, 532, 532, 532];
-        var error = [387, 389, 394, 408, 418, 426, 482, 456, 456, 456]
+        var onlineTicket = [124, 124, 124, 124, 125, 125, 125, 125, 126, 126, 129];
+        var offlineTicket = [532, 532, 532, 532, 532, 532, 532, 532, 532, 532, 539];
+        var error = [387, 389, 394, 408, 418, 426, 482, 456, 456, 456, 439]
         let self = this;
         self.ticketsNum.prevOnline = self.ticketsNum.online;
         self.ticketsNum.prevOffline = self.ticketsNum.offline;

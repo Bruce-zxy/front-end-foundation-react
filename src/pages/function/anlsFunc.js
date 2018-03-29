@@ -601,7 +601,7 @@ function maleToFemaleData(arg) {
             	normal: {
             		position: 'inner',
             		formatter: function (data) {
-            			return data.data.value + '%'
+            			return data.name + '：' + data.value + '%'
             		},
             		textStyle: {
             			fontSize: 64
@@ -717,7 +717,7 @@ function indvToGroupData(argument) {
 
 // 线上线下比
 function onToOffData(arg) {
-	var tips = 88.97;
+	var tips = 88.87;
 	const option = {
 	    tooltip: {
             trigger: 'item',
@@ -749,7 +749,7 @@ function onToOffData(arg) {
                 }
 	        },
 	        data: [{
-	        	name: "线上占比 19.03%",
+	        	name: "线上占比 11.13%",
 		        value: 100 - tips,
 		        itemStyle: {
 		            normal: {
@@ -759,7 +759,7 @@ function onToOffData(arg) {
 		            }
 		        }
 		    }, {
-		    	name: "线下占比 80.97%",
+		    	name: "线下占比 88.87%",
 		        value: tips,
 		        itemStyle: {
 		            normal: {

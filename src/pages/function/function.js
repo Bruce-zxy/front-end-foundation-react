@@ -582,7 +582,7 @@ function parkingLotData(arg) {
         },
         color:['#48d8fd', '#43eec6' ],
         yAxis: {
-            data: ['使用量：\n\n总量：', '使用量：\n\n总量：'],
+            data: ['保有量：\n\n总量：', '使用量：\n\n总量：'],
             inverse: true,
             axisLine: {show: false},
             axisTick: {show: false},

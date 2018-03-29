@@ -17,12 +17,12 @@ function setting(start, end) {
     return setTemp;
 }
 
-@inject("bigDataAnlsData") @observer
+@inject("bigDataAnlsData", "echartsData") @observer
 class AnlsMapComponent extends Component {
     render() {
         const option = echartsOption(this.props.bigDataAnlsData, 'AnlsMap');
-        const setting1 = setting(0, 353);
-        const setting2 = setting(0, 341);        
+        const setting1 = setting(this.props.echartsData.ticketsNum.prevCheck, this.props.echartsData.ticketsNum.check);
+        const setting2 = setting(0, 374);        
         return (
             <div style={{width: '100%', height: '100%'}}>
                 <ReactEcharts

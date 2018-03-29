@@ -9,9 +9,9 @@ class ParkingChargeComponent extends Component {
 		return (
 		    <div className="zhiban">
 	    		<p><span>总负责人：</span><span>韩基权</span></p>
-	    		<p><span>游船调度负责人：</span><span>张俊峰</span></p>
-	    		<p><span>客服负责人：</span><span>刘晓琴</span></p>
+	    		<p><span>客服负责人：</span><span>刘晓芹</span></p>
 	    		<p><span>物业负责人：</span><span>何小丽</span></p>
+	    		<p><span>调度负责人：</span><span>张俊峰</span></p>
 		    </div>
 		);
 	}
