@@ -115,7 +115,7 @@ class EchartsData {
             } else if (new Date().getHours() === 1 && change) {
                 change = !change;
             }
-            self.fetchParkingData(i);
+            // self.fetchParkingData(i);
             self.fetchWeatherData();
             self.fetchPM25();
             self.tickets(i);
@@ -133,15 +133,15 @@ class EchartsData {
         var realInBoating = [0, 0, 1, 0, 2, 1, 0, 1, 0, 0, 0];
         var realOutBoating = [0, 0, 2, 1, 0, 0, 1, 1, 2, 0, 0];
         var boating = [{
-                "inUse": 2,
+                "inUse": 4,
                 "all": 39,
-                "realIn": 0,
-                "realOut": 0
+                "realIn": 2,
+                "realOut": 6
             }, {
-                "inUse": 2,
+                "inUse": 4,
                 "all": 39,
-                "realIn": 0,
-                "realOut": 0
+                "realIn": 2,
+                "realOut": 6
             }, {
                 "inUse": 2,
                 "all": 39,
@@ -296,17 +296,16 @@ class EchartsData {
         var month2 = [4,6,9,11];
         var month3 = 2;
         function getDays(month, year) {
-            return !(month1.indexOf(month) + 1) ? 31 : !(month2.indexOf(month) + 1) ? 30 : month === month3 && year%4 === 0 ? 29 : 28 ;
+            return month1.indexOf(month) + 1 ? 31 : month2.indexOf(month) + 1 ? 30 : month === month3 && year%4 === 0 ? 29 : 28 ;
         }
         function getDate(index) {
             var year = new Date().getFullYear();
             var month = new Date().getMonth() + 1;
             var day = new Date().getDate() - index;
-            if(month - 1 < 0) {
-                var preMonth = month + 11;
+            var preMonth = month - 1;
+            if(preMonth === 0) {
+                preMonth = month + 11;
                 year -= 1;
-            } else {
-                var preMonth = month - 1;
             }
             var preDay = getDays(preMonth, year);
             if(day - 1 < 0) {

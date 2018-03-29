@@ -34,7 +34,7 @@ class BigData extends Component {
                     <div className="bigdata_content">
                         <div className="c_content c_1">
                             <CardProvider className="cards" title="景区当日票务统计" color="light-green">
-                                <a href="/bigdata2"></a>
+                                <a href="#/bigdata2"></a>
                                 <TicketBusinessComponent />
                             </CardProvider>
                             <CardProvider className="cards" title="景区当日车位游船管理" color="light-green">
