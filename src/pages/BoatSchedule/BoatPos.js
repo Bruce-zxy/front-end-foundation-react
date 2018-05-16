@@ -43,11 +43,15 @@ class BoatPosComponent extends Component {
 	            	    data={[
 	            	        {
 	            	            text: "赣仙游004",
-	            	            location: "114.754146,27.74542"
+	            	            location: "114.806682,27.71218"
 	            	        },
 	            	        {
 	            	            text: "赣仙游006",
 	            	            location: "114.808278,27.723758"
+	            	        },
+	            	        {
+	            	        	text: "赣仙游013",
+	            	        	location: "114.809682,27.71418"
 	            	        }
 	            	    ]} 
 	            	    fillStyle="#ff3333" 

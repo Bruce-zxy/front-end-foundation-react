@@ -128,8 +128,8 @@ class EchartsData {
     }
     fetchParkingData(index) {
         let self = this;
-        var realInParking = [0, 133, 1, 0, 2, 1, 0, 1, 0, 0, 0];
-        var realOutParking = [0, 8, 2, 1, 0, 0, 1, 1, 2, 0, 0];
+        var realInParking = [0, 143, 1, 0, 2, 1, 0, 1, 0, 0, 0];
+        var realOutParking = [0, 89, 2, 1, 0, 0, 1, 1, 2, 0, 0];
         var realInBoating = [6, 6, 1, 0, 2, 1, 0, 1, 0, 0, 0];
         var realOutBoating = [2, 2, 2, 1, 0, 0, 1, 1, 2, 0, 0];
         var boating = [{

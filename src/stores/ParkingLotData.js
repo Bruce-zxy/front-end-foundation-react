@@ -98,93 +98,93 @@ class ParkingLotData {
     }]
     @observable _IOCars = {
         inSumPrev: 0,
-        inSum: 133,
+        inSum: 143,
         outSumPrev: 0,
-        outSum: 8,
+        outSum: 89,
         inputCars: [{
             license: "赣K9U070",
             id: 1111111111,
             addr: '新余',
-            time: '10:03:19'
+            time: '14:13:19'
         }, {
             license: "赣K5J581",
             id: 1111111112,
             addr: '新余',
-            time: '10:05:36'
+            time: '14:15:36'
         }, {
             license: "赣A9U070",
             id: 1111111113,
             addr: '南昌',
-            time: '10:06:44'
+            time: '14:16:44'
         }, {
             license: "赣KG7297",
             id: 1111111114,
             addr: '新余',
-            time: '10:09:01'
+            time: '14:19:01'
         }, {
             license: "赣KF6681",
             id: 1111111115,
             addr: '新余',
-            time: '10:10:59'
+            time: '14:20:59'
         }, {
             license: "赣CL2A59",
             id: 1111111116,
             addr: '宜春',
-            time: '10:12:46'
+            time: '14:22:46'
         }, {
             license: "赣A9U070",
             id: 1111111117,
             addr: '南昌',
-            time: '10:14:32'
+            time: '14:24:32'
         }],
         outputCars: [{
             license: "赣KL6780",
             id: 1111111111,
             addr: '新余',
-            time: '08:53:59',
+            time: '13:59:59',
             stayTime: 18
         }, {
             license: "赣KA5813",
             id: 1111111112,
             addr: '新余',
-            time: '09:15:32',
+            time: '14:02:32',
             stayTime: 32
         }, {
             license: "赣K9381A",
             id: 1111111113,
             addr: '新余',
-            time: '09:17:34',
+            time: '14:05:34',
             stayTime: 25
         }, {
             license: "赣A417C5",
             id: 1111111114,
             addr: '南昌',
-            time: '09:38:23',
+            time: '14:08:23',
             stayTime: 6
         }, {
             license: "赣KM2380",
             id: 1111111115,
             addr: '新余',
-            time: '10:03:25',
+            time: '14:09:25',
             stayTime: 73
         }, {
             license: "赣K89A01",
             id: 1111111116,
             addr: '新余',
-            time: '10:09:58',
+            time: '14:12:58',
             stayTime: 49
         }, {
             license: "赣K94U81",
             id: 1111111117,
             addr: '新余',
-            time: '10:12:23',
-            stayTime: 49
+            time: '14:18:23',
+            stayTime: 89
         }, {
             license: "赣K5Z439",
             id: 1111111118,
             addr: '新余',
-            time: '10:14:11',
-            stayTime: 49
+            time: '14:21:11',
+            stayTime: 77
         }]
     }
     @observable _IOCarsTime = [{

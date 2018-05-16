@@ -339,9 +339,9 @@ function dynamicChart(arg) {
 
 // 雷达图
 function radarChart(arg) {
-    var dataReal = [[39, 62, 20, 52, 2, 0, 0]];
-    var dataPre = [[36, 68, 21, 49, 0, 0, 0]];
-    var dataYes = [[34, 65, 27, 55, 1, 0, 2]];
+    var dataReal = [[39, 20, 62, 52, 2, 0, 0]];
+    var dataPre = [[36, 21, 68, 49, 0, 0, 0]];
+    var dataYes = [[34, 27, 65, 55, 1, 0, 2]];
 
     var lineStyle = {
         normal: {
