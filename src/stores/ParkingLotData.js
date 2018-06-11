@@ -105,85 +105,85 @@ class ParkingLotData {
             license: "赣K9U070",
             id: 1111111111,
             addr: '新余',
-            time: '14:13:19'
+            time: '09:13:19'
         }, {
             license: "赣K5J581",
             id: 1111111112,
             addr: '新余',
-            time: '14:15:36'
+            time: '09:15:36'
         }, {
             license: "赣A9U070",
             id: 1111111113,
             addr: '南昌',
-            time: '14:16:44'
+            time: '09:16:44'
         }, {
             license: "赣KG7297",
             id: 1111111114,
             addr: '新余',
-            time: '14:19:01'
+            time: '09:19:01'
         }, {
             license: "赣KF6681",
             id: 1111111115,
             addr: '新余',
-            time: '14:20:59'
+            time: '09:20:59'
         }, {
             license: "赣CL2A59",
             id: 1111111116,
             addr: '宜春',
-            time: '14:22:46'
+            time: '09:22:46'
         }, {
             license: "赣A9U070",
             id: 1111111117,
             addr: '南昌',
-            time: '14:24:32'
+            time: '09:24:32'
         }],
         outputCars: [{
             license: "赣KL6780",
             id: 1111111111,
             addr: '新余',
-            time: '13:59:59',
+            time: '08:59:59',
             stayTime: 18
         }, {
             license: "赣KA5813",
             id: 1111111112,
             addr: '新余',
-            time: '14:02:32',
+            time: '09:02:32',
             stayTime: 32
         }, {
             license: "赣K9381A",
             id: 1111111113,
             addr: '新余',
-            time: '14:05:34',
+            time: '09:05:34',
             stayTime: 25
         }, {
             license: "赣A417C5",
             id: 1111111114,
             addr: '南昌',
-            time: '14:08:23',
+            time: '09:08:23',
             stayTime: 6
         }, {
             license: "赣KM2380",
             id: 1111111115,
             addr: '新余',
-            time: '14:09:25',
+            time: '09:09:25',
             stayTime: 73
         }, {
             license: "赣K89A01",
             id: 1111111116,
             addr: '新余',
-            time: '14:12:58',
+            time: '09:12:58',
             stayTime: 49
         }, {
             license: "赣K94U81",
             id: 1111111117,
             addr: '新余',
-            time: '14:18:23',
+            time: '09:18:23',
             stayTime: 89
         }, {
             license: "赣K5Z439",
             id: 1111111118,
             addr: '新余',
-            time: '14:21:11',
+            time: '09:21:11',
             stayTime: 77
         }]
     }
