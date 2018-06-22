@@ -20,7 +20,7 @@ class ParkingLot extends Component {
 					<div className="bigdata_title">
 						<a href="/">
 							<span className="bigdata_l"></span>
-							<span className="bigdata_c">仙女湖景区智能停车场管理</span>
+							<span className="bigdata_c">腾龙洞景区智能停车场管理</span>
 							<span className="bigdata_r"></span>
 						</a>
 					</div>

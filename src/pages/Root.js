@@ -20,7 +20,7 @@ class RootPage extends Component {
 				<div className="bigdata_title">
 					<a href="/">
 						<span className="bigdata_l"></span>
-						<span className="bigdata_c">仙女湖景区智能管控平台</span>
+						<span className="bigdata_c">腾龙洞景区智能管控平台</span>
 						<span className="bigdata_r"></span>
 					</a>
 				</div>
@@ -50,10 +50,10 @@ class RootPage extends Component {
 						<p style={styles.p}>客流分析</p>
 					</li>
 					<li>
-						<a href="http://59.55.128.155:8000/xnh/">
-							<img src={require('./images/GIS.jpg')} style={styles.img} />
+						<a href="#/bigdata">
+							<img src={require('./images/ReactApp1.jpg')} style={styles.img} />
 						</a>
-						<p style={styles.p}>三维地理信息系统</p>
+						<p style={styles.p}>综合管控</p>
 					</li>
 				</ul>
 			</div>

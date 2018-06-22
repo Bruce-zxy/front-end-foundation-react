@@ -2,8 +2,6 @@ import React,{ Component } from 'react';
 import { inject, observer } from 'mobx-react';
 import {Map, MarkerList, InfoWindow, ScaleControl, NavigationControl, OverviewMapControl, MapTypeControl, Marker, Polyline} from 'react-bmap';
 
-import img from '../mui/images/large-screen-bg.png'
-
 @inject("boatScheduleData") @observer
 class BoatPosComponent extends Component {
     render() {
